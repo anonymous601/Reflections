@@ -1,0 +1,8 @@
+Reflect 1 : What happens when you initialize a repository? Why do you need to do it?
+
+		    The directory becomes a git repository, and contains directory contents as untracked files. We need to do so, to make changes and save commits when we are working on a big project.
+
+Reflect 2 :  How is the staging area different from git repository and working directory? What value do you think it offers?
+
+			will update later.
+			
