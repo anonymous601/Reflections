@@ -5,4 +5,26 @@ Reflect 1 : What happens when you initialize a repository? Why do you need to do
 Reflect 2 :  How is the staging area different from git repository and working directory? What value do you think it offers?
 
 			will update later.
+
+Reflect 3 :  How can you use the staging area to make sure you have one commit per logical change?
+
+			  After doing a logical change, we can add it in stage area, then for next logical change, we can continue changing in the working directory. Before committing, code can ve temporarily kept in staging area to ensure there one logical difference between new going-to-be-commit and latest one. 
+			  
+Reflect 4 :  What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+			 Branches would help in creating a different version of the game, while keeping present version intact, i.e. when new version is not improved version but only a changed version. 
+			 
+Reflect 5 :  How do diagrams help you visualise the branch structure?
+
+			  Diagrams can easily represent all branches, parents of each commit, reachability and unreachable commits if any. It would be helpful when branch structure becomes a lot complicated.
+
+Reflect 6 :  What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+			Merged commit contains changes of the both the branches, it includes insertions, deletions of both branches. Thus, we represent it by joining the branches as one branch is made containing features of two.
 			
+Reflect 7 :  What are the pros and cons of Git's automatic merging vs always doing merges manually?
+
+			Manual Merging - pros-  We can decide after discussing with team mates what we want in final code. Cons- Takes efforts. 
+			Automatic- pros- easy, hassle-free. cons- it may lead to nonsense after merging.
+		
+		
